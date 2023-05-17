@@ -19,12 +19,12 @@ export default function Home() {
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae, ut.Delectus, voluptatibus officia? Nulla velit adipisci recusandae dicta.Quibusdam dicta fuga soluta possimus ipsam corrupti eaque ea nihil facere iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit, laboriosam quos sint corporis laborum repudiandae natus ipsum totam enim quam ratione, vitae, ex illo expedita saepe velit mollitia pariaturmmmm!"
         },
         {
-            img: <img src=".images/card1.png" alt="" />,
+            img: <img src="./images/card1.png" alt="" />,
             title: "Amazing product and company",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae, ut.Delectus, voluptatibus officia? Nulla velit adipisci recusandae dicta.Quibusdam dicta fuga soluta possimus ipsam corrupti eaque ea nihil facere iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit, laboriosam quos sint corporis laborum repudiandae natus ipsum totam enim quam ratione, vitae, ex illo expedita saepe velit mollitia pariaturmmmm!"
         },
         {
-            img: <img src=".images/card2.png" alt="" />,
+            img: <img src="./images/card2.png" alt="" />,
             title: "Amazing product and company",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae, ut.Delectus, voluptatibus officia? Nulla velit adipisci recusandae dicta.Quibusdam dicta fuga soluta possimus ipsam corrupti eaque ea nihil facere iure!yyyy"
         }
@@ -32,7 +32,7 @@ export default function Home() {
     return <>
         {/* first page start */}
         <Box position="relative">
-            <img src=".images/background.png" alt="Image" style={{ width: '100%', height: "100vh" }} />
+            <img src="./images/background.png" alt="Image" style={{ width: '100%', height: "100vh" }} />
             <Button
                 variant="contained"
                 sx={{
@@ -47,7 +47,7 @@ export default function Home() {
                     },
                 }}
             >
-                <img src=".images/loginLogo.png" alt="" sx={{ color: '#46B19D' }} />
+                <img src="./images/loginLogo.png" alt="" sx={{ color: '#46B19D' }} />
                 <span>Login</span>
             </Button>
             <Box
@@ -132,24 +132,24 @@ export default function Home() {
                     }}
                 >
                     <Grid item xs={12} sm={4} md={6}>
-                        <img src=".images/Group 1431.png" alt="" />
+                        <img src="./images/Group 1431.png" alt="" />
                     </Grid>
                     <Grid item xs={12} sm={4} md={6}>
-                        <img src=".images/Group 1432.png" alt="" />
+                        <img src="./images/Group 1432.png" alt="" />
                     </Grid>
                     <Grid item xs={12} sm={4} md={6}>
-                        <img src=".images/Group 1433.png" alt="" />
-                    </Grid>
-                    <Grid item xs={12} sm={4} md={6}>
-
-                        <img src=".images/Group 1658.png" alt="" />
+                        <img src="./images/Group 1433.png" alt="" />
                     </Grid>
                     <Grid item xs={12} sm={4} md={6}>
 
-                        <img src=".images/Group 1614.png" alt="" />
+                        <img src="./images/Group 1658.png" alt="" />
                     </Grid>
                     <Grid item xs={12} sm={4} md={6}>
-                        <img src=".images/Group 1615.png" alt="" />
+
+                        <img src="./images/Group 1614.png" alt="" />
+                    </Grid>
+                    <Grid item xs={12} sm={4} md={6}>
+                        <img src="./images/Group 1615.png" alt="" />
                     </Grid>
 
                 </Grid>
@@ -192,7 +192,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src=".images/Group 1558.png
+                    <img src="./images/Group 1558.png
                     " alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
@@ -211,7 +211,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src=".images/call.png
+                    <img src="./images/call.png
                     " alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
@@ -302,7 +302,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src=".images/Group 1550.png
+                    <img src="./images/Group 1550.png
                     " alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
