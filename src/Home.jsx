@@ -2,6 +2,21 @@ import { Container, Box, Button, FormControl, FormControlLabel, FormLabel, Grid,
 import { TextField, IconButton } from '@mui/material';
 import Carousel from 'react-material-ui-carousel'
 import bg from "../images/background.png"
+import cards1 from "../images/card1.png"
+import cards2 from "../images/card2.png"
+import login from "../images/loginLogo.png"
+import b1 from "../images/Group 1431.png"
+import b2 from "../images/Group 1432.png"
+import b3 from "../images/Group 1433.png"
+import b5 from "../images/Group 1614png"
+import b6 from "../images/Group 1615.png"
+import b4 from "../images/Group.png"
+import s1 from "../images/Group 1558.png"
+import s2 from "../images/call.png"
+import s3 from "../images/Group 1551.png"
+import s4 from "../images/Group 1554.png"
+import s5 from "../images/Vector.png"
+import s6 from "../images/Group 1550.png"
 import React from 'react'
 
 export default function Home() {
@@ -20,12 +35,14 @@ export default function Home() {
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae, ut.Delectus, voluptatibus officia? Nulla velit adipisci recusandae dicta.Quibusdam dicta fuga soluta possimus ipsam corrupti eaque ea nihil facere iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit, laboriosam quos sint corporis laborum repudiandae natus ipsum totam enim quam ratione, vitae, ex illo expedita saepe velit mollitia pariaturmmmm!"
         },
         {
-            img: <img src="./images/card1.png" alt="" />,
+            img: <img src=
+                {cards1} alt="" />,
             title: "Amazing product and company",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae, ut.Delectus, voluptatibus officia? Nulla velit adipisci recusandae dicta.Quibusdam dicta fuga soluta possimus ipsam corrupti eaque ea nihil facere iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit, laboriosam quos sint corporis laborum repudiandae natus ipsum totam enim quam ratione, vitae, ex illo expedita saepe velit mollitia pariaturmmmm!"
         },
         {
-            img: <img src="./images/card2.png" alt="" />,
+            img: <img src=
+                {cards2} alt="" />,
             title: "Amazing product and company",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae, ut.Delectus, voluptatibus officia? Nulla velit adipisci recusandae dicta.Quibusdam dicta fuga soluta possimus ipsam corrupti eaque ea nihil facere iure!yyyy"
         }
@@ -49,7 +66,7 @@ export default function Home() {
                     },
                 }}
             >
-                <img src="./images/loginLogo.png" alt="" sx={{ color: '#46B19D' }} />
+                <img src={login} alt="" sx={{ color: '#46B19D' }} />
                 <span>Login</span>
             </Button>
             <Box
@@ -134,28 +151,27 @@ export default function Home() {
                     }}
                 >
                     <Grid item xs={10} sm={2} md={6}>
-                        xxx
-                        {/* <img src="./images/Group 1431.png" alt="" /> */}
+                        <img src={b1} alt="" />
                     </Grid>
                     <Grid item xs={10} sm={2} md={6}>
-                        yy
-                        {/* <img src="./images/Group 1432.png" alt="" /> */}
+
+                        <img src={b2} alt="" />
                     </Grid>
                     <Grid item xs={10} sm={2} md={6}>
-                        zz
-                        {/* <img src="./images/Group 1433.png" alt="" /> */}
+
+                        <img src={b3} alt="" />
                     </Grid>
                     <Grid item xs={10} sm={2} md={6}>
-                        aa
-                        {/* <img src="./images/Group 1658.png" alt="" /> */}
+
+                        <img src={b4} alt="" />
                     </Grid>
                     <Grid item xs={10} sm={2} md={6}>
-                        cc
-                        {/* <img src="./images/Group 1614.png" alt="" /> */}
+
+                        <img src={b5} alt="" />
                     </Grid>
                     <Grid item xs={10} sm={2} md={6}>
-                        dd
-                        {/* <img src="./images/Group 1615.png" alt="" /> */}
+
+                        <img src={b6} alt="" />
                     </Grid>
 
                 </Grid>
@@ -198,8 +214,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src="./images/Group 1558.png
-                    " alt="Image" style={imageStyle} />
+                    <img src={s1} alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
                     </Typography>
@@ -217,8 +232,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src="./images/call.png
-                    " alt="Image" style={imageStyle} />
+                    <img src={s2} alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
                     </Typography>
@@ -236,8 +250,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src=".images/Group 1551.png
-                    " alt="Image" style={imageStyle} />
+                    <img src={s3} alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
                     </Typography>
@@ -270,8 +283,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src=".images/Group 1554.png
-                    " alt="Image" style={imageStyle} />
+                    <img src={s4} alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
                     </Typography>
@@ -289,8 +301,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src=".images/Vector.png
-                    " alt="Image" style={imageStyle} />
+                    <img src={s5} alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
                     </Typography>
@@ -308,8 +319,7 @@ export default function Home() {
                         // alignItems: "center",
                     }}
                 >
-                    <img src="./images/Group 1550.png
-                    " alt="Image" style={imageStyle} />
+                    <img src={s6} alt="Image" style={imageStyle} />
                     <Typography variant="h5" color="initial" sx={{ color: '#FFFFFF', marginTop: "10px" }}>
                         Get notice by right customer
                     </Typography>
