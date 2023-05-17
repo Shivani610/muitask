@@ -8,7 +8,7 @@ import login from "../images/loginLogo.png"
 import b1 from "../images/Group 1431.png"
 import b2 from "../images/Group 1432.png"
 import b3 from "../images/Group 1433.png"
-import b5 from "../images/Group 1614png"
+// import b5 from "../images/Group 1614png"
 import b6 from "../images/Group 1615.png"
 import b4 from "../images/Group.png"
 import s1 from "../images/Group 1558.png"
@@ -167,7 +167,7 @@ export default function Home() {
                     </Grid>
                     <Grid item xs={10} sm={2} md={6}>
 
-                        <img src={b5} alt="" />
+                        {/* <img src={b5} alt="" /> */}
                     </Grid>
                     <Grid item xs={10} sm={2} md={6}>
 
