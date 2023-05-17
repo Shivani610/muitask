@@ -1,6 +1,7 @@
 import { Container, Box, Button, FormControl, FormControlLabel, FormLabel, Grid, Radio, RadioGroup, Typography, Card, CardHeader, Avatar, CardContent } from '@mui/material'
 import { TextField, IconButton } from '@mui/material';
 import Carousel from 'react-material-ui-carousel'
+import bg from "../images/background.png"
 import React from 'react'
 
 export default function Home() {
@@ -32,7 +33,8 @@ export default function Home() {
     return <>
         {/* first page start */}
         <Box position="relative">
-            <img src="./images/background.png" alt="Image" style={{ width: '100%', height: "100vh" }} />
+            {/* <img src="./images/background.png" alt="Image" style={{ width: '100%', height: "100vh" }} /> */}
+            <img src={bg} alt="Image" style={{ width: '100%', height: "100vh" }} />
             <Button
                 variant="contained"
                 sx={{
@@ -118,38 +120,42 @@ export default function Home() {
             >
                 <Grid
                     item
-                    xs={12}
-                    sm={6}
+                    xs={10}
+                    sm={4}
                     md={4}
-                    spacing={4}
+                    spacing={2}
                     style={{
                         display: "flex",
-                        justifyContent: "space-evenly",
+                        justifyContent: "space-around",
                         color: "white",
                         marginTop: "20px",
                         // marginBottom: "20px"
 
                     }}
                 >
-                    <Grid item xs={12} sm={4} md={6}>
-                        <img src="./images/Group 1431.png" alt="" />
+                    <Grid item xs={10} sm={2} md={6}>
+                        xxx
+                        {/* <img src="./images/Group 1431.png" alt="" /> */}
                     </Grid>
-                    <Grid item xs={12} sm={4} md={6}>
-                        <img src="./images/Group 1432.png" alt="" />
+                    <Grid item xs={10} sm={2} md={6}>
+                        yy
+                        {/* <img src="./images/Group 1432.png" alt="" /> */}
                     </Grid>
-                    <Grid item xs={12} sm={4} md={6}>
-                        <img src="./images/Group 1433.png" alt="" />
+                    <Grid item xs={10} sm={2} md={6}>
+                        zz
+                        {/* <img src="./images/Group 1433.png" alt="" /> */}
                     </Grid>
-                    <Grid item xs={12} sm={4} md={6}>
-
-                        <img src="./images/Group 1658.png" alt="" />
+                    <Grid item xs={10} sm={2} md={6}>
+                        aa
+                        {/* <img src="./images/Group 1658.png" alt="" /> */}
                     </Grid>
-                    <Grid item xs={12} sm={4} md={6}>
-
-                        <img src="./images/Group 1614.png" alt="" />
+                    <Grid item xs={10} sm={2} md={6}>
+                        cc
+                        {/* <img src="./images/Group 1614.png" alt="" /> */}
                     </Grid>
-                    <Grid item xs={12} sm={4} md={6}>
-                        <img src="./images/Group 1615.png" alt="" />
+                    <Grid item xs={10} sm={2} md={6}>
+                        dd
+                        {/* <img src="./images/Group 1615.png" alt="" /> */}
                     </Grid>
 
                 </Grid>
